@@ -1,0 +1,1 @@
+export { default as ExamplePic } from './pie.vue';

@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+html,body,#app{
+  height: 100vh;
+  width: 100vw;
+}
+
+:root{
+  --primary-color: #7fabee;
+  --white-color:#ffffff;
+}
+/* [data-theme="#{$theme-name}"] */
+[html-theme="dark"] {
+  --primary-color: #000;
+}
+[html-theme="light"]{
+  --primary-color: #fff;
+}
+
+
+.h-full{
+  height: 100%;
+}
+.w-full{
+  width: 100%;
+}
+
+.flex{
+  display: flex;
+}
